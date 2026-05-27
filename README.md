@@ -71,12 +71,14 @@ Indepth scoping of the project can be found here [📉 Maven Music Project Scopi
 * 📄`My Thought Process.pdf`: File that contains what was I thinking during Data Cleaning and EDA process.
 ---
 
-## 🚀 Key Takeaways: Data Execution Strategy
+## ✅ Key Takeaways: Data Execution Strategy
 
 This project showcases an end-to-end analytical workflow—moving from cold business scoping directly into programmatic execution.
 * By maintaining a clean documentation footprint, checking data constraints early, and engineering targeted features, this process guarantees that subsequent machine learning steps are built on a verified, business-aligned foundation.
 ---
-
+## 🎯The "So What?"
+* I recommended the business to focus on engaging users through **Pop Music** content and **reconsider the discount strategy**, as it was attracting high churn customers rather than loyal subscribers.
+---
 ## 🚀 What's Next? (Future Roadmap)
 
 Now that the data is clean and structured, the next logical phase would translate these insights into automated business actions:
