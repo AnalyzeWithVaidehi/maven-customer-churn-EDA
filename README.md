@@ -77,10 +77,10 @@ This project showcases an end-to-end analytical workflow—moving from cold busi
 * By maintaining a clean documentation footprint, checking data constraints early, and engineering targeted features, this process guarantees that subsequent machine learning steps are built on a verified, business-aligned foundation.
 ---
 
-## 🚀Whats Next: Predictive Modeling Roadmap
+## 🚀 What's Next? (Future Roadmap)
 
-While this repository focuses strictly on the **Data Pipeline & EDA**, the natural progression of this engineered dataset (`model_df`) into a production machine learning workflow would involve:
+Now that the data is clean and structured, the next logical phase would translate these insights into automated business actions:
 
-* **Model Training & Evaluation:** Training binary classification models—starting with **Logistic Regression** for clear baseline coefficients, and scaling to **Random Forest** or **LightGBM** to capture complex, non-linear listening patterns.
-* **Optimizing for Recall:** Prioritizing **Recall** over raw accuracy during model evaluation. In churn economics, failing to identify a departing user (False Negative) is far more costly than accidentally sending a retention offer to a loyal one.
-* **Actionable Business Deployment:** Using the model's feature importances to build weekly "Churn Risk Scores" per subscriber. This would trigger automated retention plays, such as targeted re-engagement campaigns for users whose session density drops below their personal trailing average.
+* **Predictive Modeling:** Train a machine learning model to assign a "churn risk score" to every active subscriber based on their usage patterns.
+* **Catching Attrition Early:** Tune the model to prioritize catching high-risk users. In subscriber economics, missing a customer who is about to leave is far more costly than reaching out to a loyal one.
+* **Automated Retention Actions:** Turn the model's scores into real-time triggers. For example, if a user's streaming activity drops below their personal average, automatically trigger a personalized re-engagement campaign or special offer to win them back.
